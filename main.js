@@ -1,11 +1,14 @@
 $(document).ready(function(){
-var c_note=document.getElementById("c_note");   
-var d_note=document.getElementById("d_note"); 
-var e_note=document.getElementById("e_note"); 
-var f_note=document.getElementById("f_note"); 
+   
+var catMeow=document.getElementById("catMeow"); 
+var dogBark=document.getElementById("dogBark");
+var horseNeigh=document.getElementById("horseNeigh"); 
+    
+/** var f_note=document.getElementById("f_note"); 
 var g_note=document.getElementById("g_note"); 
 var a_note=document.getElementById("a_note"); 
-var b_note=document.getElementById("b_note"); 
+var b_note=document.getElementById("b_note");
+**/
 
     /*$("#c").on("click mouseover",function(){
         c_note.currentTime=0;
@@ -41,33 +44,17 @@ var b_note=document.getElementById("b_note");
     $(document).on("keypress",function(evt){
         console.log(evt.keyCode);
         switch(evt.keyCode) {
-            case 97:
-                    c_note.currentTime=0;
-                    c_note.play();
-                    break;
-            case 115:
-                    d_note.currentTime=0;
-                    d_note.play();
+            case 99:
+                    catMeow.currentTime=0;
+                    catMeow.play();
                     break;
             case 100:
-                    e_note.currentTime=0;
-                    e_note.play();
-                    break;
-            case 102:
-                    f_note.currentTime=0;
-                    f_note.play();
-                    break;
-            case 103:
-                    g_note.currentTime=0;
-                    g_note.play();
+                    dogBark.currentTime=0;
+                    dogBark.play();
                     break;
             case 104:
-                    a_note.currentTime=0;
-                    a_note.play();
-                    break;
-             case 106:
-                    b_note.currentTime=0;
-                    b_note.play();
+                    horseNeigh.currentTime=0;
+                    horseNeigh.play();
                     break;
         }
         

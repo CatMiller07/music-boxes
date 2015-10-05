@@ -1,6 +1,13 @@
 body{
     background-color:black;
 }
+
+.pict{
+   display: inline-block;
+   
+}
+/************************************************
+
 #instrument{
     width:80%;
     margin:auto;
@@ -17,20 +24,10 @@ body{
     box-sizing:border-box;
     border:1px solid white;
 }
-#c{
-    background-color:#ffb74d;
-    border-color:#FF0050;
-}
-#c:hover{
-      background-color:#ffc96f;
-}
-#d{
-    background-color:#18ffff;
-    border-color:#FF0050;
-}
-    #d:hover{
-        background-color:#84ffff; 
-    }    
+
+
+
+      
 #e{
     background-color:aqua;
     border-color:#FF0050; 
@@ -66,3 +63,4 @@ body{
 #b:hover{
         background-color:#6749c2; 
     }   
+*****************************************/
