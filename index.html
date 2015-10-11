@@ -4,35 +4,55 @@
     <title>Music Boxes!!</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="main.js"></script> 
+    <script src="main_music.js"></script> 
     </head>
     <body>
-        <audio id="dogBark">
-            <source src="Nature_Sounds/dog%20barking/0916.mp3" type="audio/mpeg"></source>
-            <source src="Nature_Sounds/dog%20barking/0916.ogg" type="audio/mpeg"></source>
-            <source src="Nature_Sounds/dog%20barking/0916.wav" type="audio/mpeg"></source>
+        <h1 align= "center">My Electronic Xylophone</h1>
+        
+        <audio id="c_note">
+            <source src="music_notes/c_note.mp3" type="audio/mpeg"></source>
+            <source src="music_notes/c_note.ogg" type="audio/mpeg"></source> 
+            <source src="music_notes/c_note.wav" type="audio/mpeg"></source>
         </audio>
-        <audio  id="horseNeigh">
-            <source src="Nature_Sounds/Horse%20Neigh/0863.mp3" type="audio/mpeg"></source>
-             <source src="Nature_Sounds/Horse%20Neigh/0863.ogg" type="audio/mpeg"></source>
-            <source src="Nature_Sounds/Horse%2520Neigh/0863.wav" type="audio/mpeg"></source>
+         <audio id="d_note">
+            <source src="music_notes/d_note.mp3" type="audio/mpeg"></source>
+            <source src="music_notes/d_note.ogg" type="audio/mpeg"></source> 
+            <source src="music_notes/d_note.wav" type="audio/mpeg"></source>
         </audio>
-        <audio id="catMeow">
-             <source src="Nature_Sounds/Meow/0903.mp3" type="audio/mpeg"></source>
-             <source src="Nature_Sounds/Meow/0903.ogg" type="audio/mpeg"></source>
-             <source src="Nature_Sounds/Meow/0903.wav" type="audio/mpeg"></source>
-          </audio>
-         <div id =instrument">
-            <div id="c" class= "pict"" >
-                <img src= "Nature_Sounds/Pictures/catThumbnail.jpg")>
-            </div>
-            <div id="d" class="pict" ">
-                 <img src= "Nature_Sounds/Pictures/corgiPuppy_282x382.jpg")>
-            </div>                                                        
-            <div id="h" class="pict">
-                <img src= "Nature_Sounds/Pictures/horse.thumbnail.jpg")>        
-            </div>
-            
+         <audio id="e_note">
+            <source src="music_notes/e_note.mp3" type="audio/mpeg"></source>
+            <source src="music_notes/e_note.ogg" type="audio/mpeg"></source> 
+            <source src="music_notes/e_note.wav" type="audio/mpeg"></source>
+        </audio>
+        <audio id="f_note">
+            <source src="music_notes/f_note.mp3" type="audio/mpeg"></source>
+            <source src="music_notes/f_note.ogg" type="audio/mpeg"></source> 
+            <source src="music_notes/f_note.wav" type="audio/mpeg"></source>
+        </audio>
+         <audio id="g_note">
+            <source src="music_notes/g_note.mp3" type="audio/mpeg"></source>
+            <source src="music_notes/g_note.ogg" type="audio/mpeg"></source> 
+            <source src="music_notes/g_note.wav" type="audio/mpeg"></source>
+        </audio>
+         <audio id="a_note">
+            <source src="music_notes/a_note.mp3" type="audio/mpeg"></source>
+            <source src="music_notes/a_note.ogg" type="audio/mpeg"></source> 
+            <source src="music_notes/a_note.wav" type="audio/mpeg"></source>
+        </audio>
+         <audio id="b_note">
+            <source src="music_notes/b_note.mp3" type="audio/mpeg"></source>
+            <source src="music_notes/b_note.ogg" type="audio/mpeg"></source> 
+            <source src="music_notes/b_note.wav" type="audio/mpeg"></source>
+        </audio>
+
+         <div id="instrument">
+             <div id="c" class="key"></div>
+             <div id="d" class="key"></div>
+             <div id="e" class="key"></div>
+             <div id="f" class="key"></div>
+             <div id="g" class="key"></div>
+             <div id="a" class="key"></div>
+             <div id="b" class="key"></div>
         </div>
     </body>
 </html>

@@ -1,16 +1,14 @@
-$(document).ready(function(){
-   
-var catMeow=document.getElementById("catMeow"); 
-var dogBark=document.getElementById("dogBark");
-var horseNeigh=document.getElementById("horseNeigh"); 
-    
-/** var f_note=document.getElementById("f_note"); 
-var g_note=document.getElementById("g_note"); 
-var a_note=document.getElementById("a_note"); 
-var b_note=document.getElementById("b_note");
-**/
+$(document).ready(function () {
+    var c_note = document.getElementById("c_note");
+    var d_note = document.getElementById("d_note"); 
+    var e_note = document.getElementById("e_note");    
+    var f_note = document.getElementById("f_note"); 
+    var g_note = document.getElementById("g_note"); 
+    var a_note = document.getElementById("a_note"); 
+    var b_note = document.getElementById("b_note");
 
-    /*$("#c").on("click mouseover",function(){
+
+    $("#c").on("click mouseover",function(){
         c_note.currentTime=0;
         c_note.play();
     });
@@ -35,30 +33,11 @@ var b_note=document.getElementById("b_note");
         a_note.play();
     });
      $("#b").on("click mouseover",function(){
-        c_note.currentTime=0;
-        c_note.play();
+        b_note.currentTime=0;
+        b_note.play();
     });
-    */
-    //attach listener for keypresses
     
-    $(document).on("keypress",function(evt){
-        console.log(evt.keyCode);
-        switch(evt.keyCode) {
-            case 99:
-                    catMeow.currentTime=0;
-                    catMeow.play();
-                    break;
-            case 100:
-                    dogBark.currentTime=0;
-                    dogBark.play();
-                    break;
-            case 104:
-                    horseNeigh.currentTime=0;
-                    horseNeigh.play();
-                    break;
-        }
-        
-    });
+   
 });                  
                
 

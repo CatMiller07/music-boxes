@@ -2,11 +2,6 @@ body{
     background-color:black;
 }
 
-.pict{
-   display: inline-block;
-   
-}
-/************************************************
 
 #instrument{
     width:80%;
@@ -14,7 +9,7 @@ body{
     position:absolute;
     top:0;left:0;right:0;bottom:0;
     background-color: rgba(220,220,220,0.3);
-    height: 100px;
+    height: 200px;
 }
 .key{
     width:14%;
@@ -25,9 +20,28 @@ body{
     border:1px solid white;
 }
 
+h1{
+     left: 15;
+    
+    font-weight: bold;
+      font-size: 3.50em;
+          color: aliceblue;
+}
 
-
-      
+#c{
+    background-color:#f8bbd0;
+    border-color:#fce4ec; 
+}
+#c:hover{
+        background-color:#fce4ec; 
+    }   
+#d{
+    background-color:#4db6ac;
+    border-color:#80cbc4; 
+}
+#d:hover{
+        background-color:#80cbc4; 
+    }  
 #e{
     background-color:aqua;
     border-color:#FF0050; 
@@ -36,11 +50,11 @@ body{
         background-color:#b3e5fc; 
     }   
 #f{
-    background-color:#6a1b9a;
-    border-color:#FF0050;
+    background-color:#689f38;
+    border-color:#7cb342;
 }
 #f:hover{
-        background-color:#b39ddb; 
+        background-color:#7cb342; 
     }   
 #g{
     background-color:#b39ddb;
@@ -57,10 +71,10 @@ body{
         background-color:#3aaaf7; 
     }   
 #b{
-    background-color:#4527a0;
-    border-color:#FF0050;
+    background-color:#f57c00;
+    border-color:#fb8c00;
 }
 #b:hover{
-        background-color:#6749c2; 
+        background-color:#fb8c00; 
     }   
-*****************************************/
+
